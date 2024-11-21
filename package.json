@@ -1,0 +1,29 @@
+{
+  "name": "template-typescript",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "start": "node .",
+    "dev": "ts-node -r tsconfig-paths/register src/main.ts"
+  },
+  "author": "https://twitter.com/sunkwii",
+  "devDependencies": {
+    "@types/node": "^22.7.6",
+    "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-regexp": "^2.6.0",
+    "eslint-plugin-security": "^3.0.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-sort-keys-custom-order": "^2.1.0",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.9.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
